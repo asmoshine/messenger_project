@@ -1,0 +1,75 @@
+li {
+    list-style-type: none;
+    border: 1px solid khaki;
+    margin: 1px 0 2px -45px;
+    background-color: azure;
+}
+.row {
+    margin-bottom: 8px;
+    overflow: hidden;
+}
+.row input {
+    float: right;
+    height: 19px;
+    line-height: 19px;
+    margin: 0;
+    padding: 0 5px;
+    width: 287px;
+}
+.row p{
+    text-align: center;
+    }
+.row input[type=submit] {
+    padding:5px;
+    height:25px;
+    width:100%;
+    line-height: 10px;
+}
+
+.rl-form {
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    height: 130px;
+    margin: 0 auto;
+    border: 2px solid red;
+    padding: 10px;
+}
+
+fieldset{
+    position: relative;
+    overflow: auto;
+    height: 560px;
+    border-color: maroon;
+}
+.form{
+    margin-top: 5px;
+    }
+.form input[type=text]{
+    height: 35px;
+    line-height: 15px;
+    width: 1215px;
+}
+.form input[type=submit]{
+    height: 40px;
+    width: 100px;
+    margin: 0 5px 0 5px;
+}
+.contact-part {
+    display: inline;
+    float: left;
+    width: 200px;
+}
+.message-part{
+    display: inline;
+    width: 1325px;
+}
+.userlist li {
+    list-style-type: none;
+    border: 2px solid darkblue;
+    margin: 1px 0 2px -45px;
+    background-color: mediumseagreen;
+    padding: 3px 2px 3px 2px;
+}
